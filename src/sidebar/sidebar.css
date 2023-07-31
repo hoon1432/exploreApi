@@ -1,0 +1,16 @@
+.sidebar {
+  width: 30%;
+  position: fixed; /* Sit on top of the page content */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  float: right;
+  overflow: scroll;
+}
+
+p {
+  color: white;
+  text-align: left;
+}

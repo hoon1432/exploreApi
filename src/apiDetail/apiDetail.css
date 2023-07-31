@@ -1,0 +1,12 @@
+.apiDetail {
+  width: 70%;
+  align-items:start;
+}
+
+.apiDetail h2 {
+  margin: 0;
+}
+
+p {
+  color: white;
+}
