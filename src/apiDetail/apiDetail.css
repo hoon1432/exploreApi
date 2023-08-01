@@ -2,3 +2,8 @@
   width: 70%;
   align-items:start;
 }
+
+.logoImg {
+  max-width: 50px;
+  margin-right: 10px;
+}

@@ -13,6 +13,15 @@ function ApiDetail({apiData}) {
 
   return (
     <div className="apiDetail">
+      <div>
+        <h1>
+          {apiData["x-logo"] &&
+            apiData["x-logo"].url &&
+            <img src={apiData["x-logo"].url} className='logoImg'></img>
+          }
+          {apiData.title}
+        </h1>
+      </div>
       {apiData.description && 
         <div>
           <h2>Description</h2>
